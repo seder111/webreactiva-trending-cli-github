@@ -1,0 +1,21 @@
+{
+  "name": "github-trending-cli",
+  "version": "1.0.0",
+  "description": "CLI para ver repositorios en tendencia de GitHub",
+  "type": "module",
+  "bin": {
+    "trending": "./bin/trending.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "cheerio": "^1.0.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "ora": "^8.1.0"
+  },
+  "keywords": ["github", "trending", "cli"],
+  "license": "MIT"
+}
